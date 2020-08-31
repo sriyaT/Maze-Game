@@ -524,10 +524,7 @@ window.onload = function () {
     }
   };
   sprite = new Image();
-  sprite.src =
-    'https://image.ibb.co/dr1HZy/Pf_RWr3_X_Imgur.png' +
-    '?' +
-    new Date().getTime();
+  sprite.src = './img/pengoo.png';
   sprite.setAttribute('crossOrigin', ' ');
   sprite.onload = function () {
     sprite = changeBrightness(1.2, sprite);
